@@ -52,7 +52,3 @@ fun main() {
 }
 </pre>
 
-## Setup
-<pre>
-</pre>
-
