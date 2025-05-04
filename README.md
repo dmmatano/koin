@@ -45,7 +45,8 @@ class UserApplication : KoinComponent {
 <pre>
 fun main() {
     startKoin {
-        modules(appModule)
+       androidContext(this@MainApplication)        
+       modules(appModule)
     }
 
     UserApplication().sayHello()
